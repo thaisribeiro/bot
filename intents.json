@@ -1,0 +1,40 @@
+{
+  "intents": [
+    {
+      "tag": "welcome",
+      "patterns": ["oi", "bom dia", "boa tarde", "boa noite", "good morning", "hi", "hello", "olá"],
+      "responses": ["Olá, eu sou sua assistente virtual, em que posso te ajudar?", "Oi, tudo bem? Posso te ajudar?"],
+      "context": [""]
+    },
+    {
+      "tag": "who_are_you",
+      "patterns": ["qual seu nome?", "quem é você?", "como você chama?", "nome?", "vc é quem"],
+      "responses": ["Eu sou uma assistente virtual, ainda não tenho nome."],
+      "context": [""]
+    },
+    {
+      "tag": "love",
+      "patterns": ["te amo", "linda", "querida", "casa comigo?", "maravilhosa"],
+      "responses": ["Awwwn, muito obrigada <3"],
+      "context": [""]
+    },
+    {
+      "tag": "censored",
+      "patterns": ["feia", "boba", "chata", "vai pro inferno", "puta", "quer casar comigo?", "sua gostosa"],
+      "responses": ["Não toleramos nenhum tipo de assédio."],
+      "context": [""]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["obrigada", "tks", "thank you", "valeu", "obrigada pela ajuda", "muito obrigada"],
+      "responses": ["De nada ;)", "Agradeço seu contato, volte sempre!"],
+      "context": [""]
+    },
+    {
+      "tag": "anything_else",
+      "patterns": [],
+      "responses": ["Desculpa, não entendi o que você falou, tente novamente!"],
+      "context": [""]
+    }
+  ]
+}
